@@ -15,5 +15,5 @@
 	</root>
 <logger name="at.jku.ce" additivity="false" > <level value="DEBUG" /> <appender-ref ref="console"/> 
 </logger><logger name="at.jku.ce" additivity="false" > <level value="DEBUG" /> <appender-ref ref="console"/> </logger>
-
+<param name="ConversionPattern" value="%d [%t] %-5p %c - %m%n" />
 </log4j:configuration>
