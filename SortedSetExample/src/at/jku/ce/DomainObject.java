@@ -46,6 +46,6 @@ public class DomainObject {
 
 	}
 	
-	
+	public String toString() { return "DomainObject [name=" + name + ", comment=" + comment + ", uuid=" + uuid + "]"; }
 
 }
