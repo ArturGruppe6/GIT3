@@ -7,17 +7,17 @@ public class DomainObject {
 		super();
 	}
 	
-	public String id;
+	public String uuid;
 	private String name;
 	
 	public DomainObject(String id) {
 		
-		super(); this.id = id;
+		super(); this.uuid = id;
 		
 	}
 
-	public String getId() { 
-		return id;
+	public String getUuid()() { 
+		return uuid;
 	}
 	
 	
