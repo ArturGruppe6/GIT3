@@ -50,4 +50,6 @@ public class DomainObject {
 
 public boolean equals(Object obj) { if (!(obj instanceof DomainObject)) { return false; } DomainObject domainObj = (DomainObject) obj; return uuid.equals(domainObj.getUuid()); }
 
+public int hashCode() { if (uuid != null) { return uuid.hashCode(); } else { return super.hashCode(); } }
+
 }
