@@ -7,7 +7,9 @@ public class DomainObject {
 		super();
 	}
 	
+
 	public String uuid;
+
 	private String name;
 	
 	public DomainObject(String id) {
