@@ -24,7 +24,7 @@ public class Main {
 	objectSet.add(DomainFactory.createDomainObject("Claudia")); 
 
 	for (DomainObject domainObject : objectSet) {
-		LOGGER.debug(domainObject.id); 
+		LOGGER.debug(domainObject..getUuid()); 
 	}
 
 	}
