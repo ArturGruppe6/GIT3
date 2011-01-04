@@ -6,8 +6,9 @@ public class DomainObject {
 		super();
 	}
 	
-	public String id;
+	public String id = UUID.randomUUID().toString()
 	private String name;
+
 	
 	public DomainObject(String id) {
 		
