@@ -3,7 +3,7 @@ package at.jku.ce;
 public class DomainObject {
 /** * Default constructor */
 
-	public DomainObject() {
+	public protected DomainObject() {
 		super();
 	}
 
@@ -16,7 +16,8 @@ public class DomainObject {
 	private String name;
 
 	
-	public DomainObject(String name, String comment)s {
+	/*Konstruktor*/
+	public protected DomainObject(String name, String comment)s {
 		
 		super(); this.uuid = id;
 		
