@@ -15,9 +15,15 @@ public class DomainObject {
 
 	private String name;
 
-	
+	public String getName() { return name; }
+
+	public void setName(final String name) { this.name = name; }
+
+
+
 	/*Konstruktor*/
-	public protected DomainObject(String name, String comment)s {
+	public protected DomainObject(final String name, String comment)s {
+
 		
 		super(); this.uuid = id;
 		
