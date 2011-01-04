@@ -17,11 +17,11 @@ public class DomainObject {
 
 	public String getName() { return name; }
 
-	public void setName(String name) { this.name = name; }
+	public void setName(final String name) { this.name = name; }
 
 
 	
-	public DomainObject(String name, String comment)s {
+	public DomainObject(final String name, String comment)s {
 		
 		super(); this.uuid = id;
 		
