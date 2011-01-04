@@ -6,11 +6,15 @@ public class DomainObject {
 	public DomainObject() {
 		super();
 	}
-	
+
+
+	public String id = UUID.randomUUID().toString()
+
 
 	public String uuid;
 
 	private String name;
+
 	
 	public DomainObject(String id) {
 		
